@@ -1,79 +1,68 @@
 # Lesson 1: Charge, Current, Voltage, Resistance and Ohm's Law
 
-**Why this matters for control systems:** a control system does three things. It *measures* (sensors, which usually output a voltage or current), it *decides* (a controller such as a PLC), and it *acts* (it sends current to motors, heaters and valves). All three run on the four ideas in this lesson. Master these and everything after builds on them.
+**Why this matters for control systems:** a control system *measures* something (with a sensor), *decides* what to do (with a controller), and *acts* (by sending electricity to a motor, heater or valve). All three depend on the four ideas in this lesson.
 
 ---
 
-## 1. Charge: the players
+## 1. Charge
 
-Everything is made of atoms, and atoms contain tiny particles called **electrons** that carry a negative **electric charge**. In a metal wire, some electrons are loosely held and can move around.
+Everything is made of atoms. Atoms contain tiny particles called **electrons**, and each electron carries a small amount of **electric charge**.
+
+In metals like copper, some electrons can move freely through the material. Moving charge is what electricity is.
 
 - Symbol: **Q**
 - Unit: **coulomb (C)**
-- 1 coulomb is the charge of about **6.24 × 10¹⁸ electrons** (6.24 billion billion).
-
-🏉 **Analogy:** charge is the **players on the field**. On their own, standing still, they do nothing. Things only get interesting when they move.
+- 1 coulomb is the charge of about 6.24 × 10¹⁸ electrons. One electron carries a very small amount of charge, so a huge number is needed to make 1 coulomb.
 
 ---
 
-## 2. Current: how many players cross the gain line per second
+## 2. Current
 
-**Current** is the *flow* of charge: how much charge passes a point in the wire every second.
+**Current** is how much charge flows past a point in a wire each second.
 
-- Symbol: **I** (from the French *intensité*)
+- Symbol: **I**
 - Unit: **ampere, or "amp" (A)**
-- **1 amp = 1 coulomb passing a point per second**
+- **1 amp = 1 coulomb of charge passing a point every second**
 
-🏉 **Analogy:** stand on the **gain line** and count how many players surge across it each second. Lots of players crossing each second is a high current. A trickle is a low current.
+More charge passing each second means a bigger current.
 
-Key point: current is measured **at a point**, like counting at one line on the field. The same current flows *through* a component.
-
-> ⚠️ **Where the analogy breaks:** electrons in a wire actually drift very slowly, only millimetres per second. But they're packed shoulder to shoulder all the way around the circuit, so when you flip a switch they *all* start moving almost instantly. Think of a scrum where the whole pack moves together, not one runner sprinting the length of the field.
-
-> 📝 **A quirk you need to know:** engineers draw current flowing from **+ to −**. This is called **conventional current**. Electrons actually move the other way, from − to +. The convention was set before electrons were discovered, and it stuck. For circuit calculations the direction choice doesn't change any answers. Just use conventional current (+ → −) like every schematic does.
+**Direction:** on circuit diagrams, current is drawn flowing from the **positive (+)** side of the battery to the **negative (−)** side. This is called **conventional current**. Electrons actually move the opposite way, but the + to − convention was chosen before electrons were discovered and it has stuck. It doesn't change any calculations, so always use + to −.
 
 ---
 
-## 3. Voltage: the shove from the pack
+## 3. Voltage
 
-**Voltage** is the "push" that drives charge around a circuit. More precisely, it's the **energy given to each coulomb of charge**.
+**Voltage** is what pushes current around a circuit. A battery or power supply provides this push.
 
-- Symbol: **V** (sometimes **U** or **E** in textbooks)
+- Symbol: **V**
 - Unit: **volt (V)**
-- **1 volt = 1 joule of energy per coulomb**
+- Exact meaning: **1 volt = 1 joule of energy given to each coulomb of charge**. A higher voltage gives each bit of charge more energy.
 
-🏉 **Analogy:** voltage is **the drive of the forward pack in a scrum**. A battery is like the pack: it provides the shove. A 12 V battery shoves harder than a 1.5 V AA battery.
+**Key point: voltage is always measured *between two points*.** That's why it's also called **potential difference**. A 9 V battery has 9 volts *between its two terminals*. It's also why a multimeter uses **two** probes to measure voltage.
 
-### The most important thing about voltage: it's always *between two points*
-
-Voltage is also called **potential difference**. It only makes sense as a comparison between two points, just as *field position* only makes sense relative to something ("we're 10 metres from their try line").
-
-🏉 Picture a **field on a slope**. What makes a ball roll isn't how high the field is above sea level, it's the **height difference** between one end and the other. Voltage works the same way: it's the "height difference" in electrical energy between two points. That's why a multimeter has **two** probes when measuring voltage.
-
-When someone says "this point is at 5 volts", they mean *5 volts relative to a reference point*, usually called **ground** or **0 V**. Ground is like your own try line: the point you measure everything from.
+When someone says "this point is at 5 V", they mean 5 V *compared with a reference point*. That reference point is called **ground** or **0 V**.
 
 ---
 
-## 4. Resistance: the defensive line
+## 4. Resistance
 
-**Resistance** is how much a material *opposes* the flow of current.
+**Resistance** is how strongly something opposes the flow of current.
 
 - Symbol: **R**
 - Unit: **ohm (Ω)**
 
-🏉 **Analogy:** resistance is **the opposition's defensive line**.
-- A weak, rushed defence (**low resistance**): your players pour through, so lots of current.
-- A brick-wall goal-line stand (**high resistance**): barely anyone gets through, so little current.
+- **Low resistance:** current flows easily. Copper wire is an example.
+- **High resistance:** very little current flows. Rubber and plastic are examples, which is why they're used to insulate wires.
 
-Copper wire has very low resistance. That's why wires are made of it. Rubber and plastic have extremely high resistance, which is why they're used as insulation. **Resistors** are components made to have a specific resistance, so engineers can control how much current flows.
+A **resistor** is a component made to have a specific resistance. Engineers use resistors to control how much current flows.
 
-> ⚠️ **Where the analogy breaks:** when current pushes through a resistance, energy is turned into **heat**. That's how toasters and kettles work, and why overloaded wires can start fires. A defensive line doesn't literally heat up, although if you've ever been at the bottom of a ruck you might disagree.
+When current flows through a resistance, some electrical energy turns into **heat**. Kettles and toasters work this way, and it's also why overloaded wires can overheat.
 
 ---
 
-## 5. Ohm's Law: the relationship between them all
+## 5. Ohm's Law
 
-These three quantities are linked by one of the most-used equations in all of engineering:
+Voltage, current and resistance are linked by one equation:
 
 $$
 V = I \times R
@@ -81,92 +70,86 @@ $$
 
 **Voltage = Current × Resistance**
 
-Rearranged, depending on what you need:
+You can rearrange it depending on what you need to find:
 
-| Want to find | Formula |
+| To find | Use |
 |---|---|
 | Voltage | V = I × R |
 | Current | I = V ÷ R |
 | Resistance | R = V ÷ I |
 
-🏉 **Reading it as rugby:** **I = V ÷ R** says:
-- **Harder shove (more V), same defence:** more players get across the line (more I).
-- **Stronger defence (more R), same shove:** fewer get across (less I).
-- **Double the defence, same shove:** half as many get through.
+What **I = V ÷ R** tells you:
+- **More voltage, same resistance:** more current.
+- **More resistance, same voltage:** less current.
+- **Double the resistance:** the current halves.
 
-### Memory trick: the triangle
+**Memory trick:** draw a triangle with V on top and I and R underneath.
 ```
       V
    -------
     I | R
 ```
-Cover the one you want. Cover **V** and you see **I × R**. Cover **I** and you see **V over R**. Cover **R** and you see **V over I**.
+Cover the letter you want to find, and what's left shows the formula. Cover V to get I × R. Cover I to get V ÷ R. Cover R to get V ÷ I.
 
 ### Worked examples
 
 **Example 1.** A 12 V battery is connected across a 6 Ω resistor. What current flows?
 I = V ÷ R = 12 ÷ 6 = **2 A**
 
-**Example 2.** 0.5 A flows through a 20 Ω resistor. What's the voltage across it?
+**Example 2.** A current of 0.5 A flows through a 20 Ω resistor. What is the voltage across it?
 V = I × R = 0.5 × 20 = **10 V**
 
-**Example 3.** A 24 V supply pushes 3 A through a heater. What's the heater's resistance?
+**Example 3.** A 24 V supply pushes 3 A through a heater. What is the heater's resistance?
 R = V ÷ I = 24 ÷ 3 = **8 Ω**
 
-> 24 V comes up a lot in your future career: it's the standard control voltage in most industrial control panels.
+(24 V is worth remembering. It's the standard voltage used in most industrial control panels.)
 
 ---
 
-## 6. The circuit: you need a complete loop
+## 6. Circuits: current needs a complete loop
 
-Current only flows around a **complete loop**, called a **circuit**. It goes out of the source, through the components, and back into the source.
+Current only flows if there is a **complete loop** from the + side of the source, through the components, and back to the − side. This loop is called a **circuit**.
 
-🏉 **Analogy:** think of a set play that has to go all the way around and come back to the start. Break the chain anywhere and the whole play stops.
-
-Three situations to know:
-
-| Situation | What it is | Resistance | Current |
+| Situation | What it means | Resistance | Current |
 |---|---|---|---|
-| **Closed circuit** | Complete loop, working normally | Normal | Normal, set by Ohm's law |
-| **Open circuit** | Loop broken: switch off, wire cut, blown fuse | Effectively infinite | **Zero** |
-| **Short circuit** | Current finds a path with almost no resistance, bypassing the load | Nearly zero | **Huge**. Dangerous: heat, fire, blown fuses |
+| **Closed circuit** | Complete loop, working normally | Normal | Set by Ohm's law |
+| **Open circuit** | The loop is broken, e.g. a switch is off, a wire is cut, or a fuse has blown | Effectively infinite | **Zero** |
+| **Short circuit** | Current finds a path with almost no resistance and skips the normal load | Nearly zero | **Very large**. Dangerous: it causes heat, fire and blown fuses |
 
-🏉 **Open circuit:** an **unbreakable wall** across the field. The pack still shoves as hard as ever (the **voltage is still there**), but **nobody gets through (zero current)**.
+**Important:** you can have voltage without any current. A battery sitting on a shelf has voltage between its terminals, but no current flows because there's no complete loop. Current, however, cannot flow without a voltage to push it.
 
-> 💡 This is a classic trap question: **you can have voltage without current.** A battery sitting on a shelf has 1.5 V across its terminals but no current flows, because there's no loop. Current, on the other hand, needs voltage to push it.
-
-🏉 **Short circuit:** the defence walks off the field. With almost nothing in the way, current becomes enormous. Ohm's law shows why: I = V ÷ R, and when R is tiny, I is huge. That's why we have **fuses and circuit breakers**. They're the referee who blows the whistle and stops play before someone gets hurt.
+**Why short circuits are dangerous:** Ohm's law says I = V ÷ R. If R is almost zero, I becomes very large. **Fuses** and **circuit breakers** are there to cut off the current before that causes damage.
 
 ---
 
-## Summary card
+## Summary
 
-| Quantity | Symbol | Unit | Rugby picture |
+| Quantity | Symbol | Unit | Meaning |
 |---|---|---|---|
-| Charge | Q | coulomb (C) | The players |
-| Current | I | amp (A) | Players crossing the gain line per second |
-| Voltage | V | volt (V) | The pack's shove, always measured between two points |
-| Resistance | R | ohm (Ω) | The defensive line |
+| Charge | Q | coulomb (C) | An amount of electricity |
+| Current | I | amp (A) | How much charge flows per second |
+| Voltage | V | volt (V) | The push that drives current, always measured between two points |
+| Resistance | R | ohm (Ω) | How strongly something opposes current |
 
 **Ohm's Law: V = I × R**
 
 ---
 
-## Quick self-check (no marks, just see if it stuck)
+## Quick self-check
 
 1. If you double the voltage and keep the resistance the same, what happens to the current?
 2. Can a circuit have voltage but no current? Give an example.
 3. A 9 V battery is connected to a 3 Ω resistor. What current flows?
 
 <details>
-<summary>Answers (only click after you've tried)</summary>
+<summary>Answers (try first)</summary>
 
-1. The current **doubles** (I = V ÷ R, so V up ×2 means I up ×2).
-2. **Yes.** A battery with nothing connected, or an open switch. The voltage is there but there's no complete loop.
+1. The current **doubles**, because I = V ÷ R.
+2. **Yes.** A battery with nothing connected to it, or a circuit with its switch off. The voltage is there, but there's no complete loop.
 3. I = 9 ÷ 3 = **3 A**.
 
 </details>
 
 ---
 
-**Your first real test arrives tomorrow at 7pm (Brisbane time).**
+**Your first test arrives tomorrow at 7pm (Brisbane time).**

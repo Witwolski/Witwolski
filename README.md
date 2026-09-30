@@ -1,6 +1,6 @@
 # Control Systems Engineering — Learning Journey
 
-A structured, beginner-friendly path from electrical basics to control systems engineering, using rugby and gridiron analogies.
+A structured, beginner-friendly path from electrical basics to control systems engineering, explained in plain language.
 
 - 📚 **[Curriculum](CURRICULUM.md)**: the full roadmap
 - 📖 **[Lessons](lessons/)**: one topic per lesson

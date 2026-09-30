@@ -4,8 +4,7 @@ This repo is a personal course to turn the learner into a competent **control sy
 
 ## The learner
 - Complete beginner in electrical engineering. Don't assume any prior knowledge; define every term the first time it appears.
-- Knows **rugby and American football** best. Explain concepts through analogies from those sports (scrums, rucks, defensive lines, gain line, field position, the coach and the game plan, and so on).
-- Always say where an analogy **breaks down**, so the learner doesn't learn something false from it.
+- **Do not use sports analogies.** The learner asked for plain, simple explanations: short sentences, one idea at a time, everyday words, and a worked example for each formula.
 - Timezone: **Australia/Brisbane** (AEST all year, no daylight saving).
 - Preference: never guess. Verify facts and arithmetic before presenting them. If there's no reliable source, say so.
 
@@ -21,6 +20,6 @@ This repo is a personal course to turn the learner into a competent **control sy
    - about 60% on the most recent lesson
    - about 40% spaced review of older topics, weighted toward past mistakes
    - mix conceptual questions ("explain in your own words") with calculations
-3. Mark the answers. For each wrong answer, re-explain with a fresh rugby/gridiron analogy.
+3. Mark the answers. For each wrong answer, re-explain it more simply.
 4. Save the test and answers to `quizzes/`, update `PROGRESS.md`, then commit and push to `claude/control-systems-learning-mr7r36`.
 5. If they scored 80% or better, deliver the next lesson from `CURRICULUM.md`. Otherwise, re-teach the weak spots before moving on.
