@@ -1,4 +1,4 @@
-# Site Week Plan — 1 hour a day, 7 days
+# Site Week Plan — Mon 9 to Sun 15 Nov 2026
 
 ## The idea in one line
 One hour a day, split into two blocks. Diet is not a block. It is a set of rules you follow at the mess.
@@ -6,14 +6,14 @@ One hour a day, split into two blocks. Diet is not a block. It is a set of rules
 | Block | Time | What |
 |---|---|---|
 | **Move** | 25 min | Bodyweight workout in your room. No gym needed. |
-| **Build** | 35 min | Learn Claude Code *by* working on your Claude project. One block, two goals. |
+| **Build** | 60 min at 7pm | Claude Lab — see `/claude-lab/PLAN.md`. |
 | **Eat** | 0 min extra | Follow the day's food rules. Tick them off in 2 minutes before bed. |
 
-**When:** Move straight after knock-off, before you shower and eat. Build after dinner. On night shift, flip it.
+**When:** Move straight after knock-off, before you shower and eat. Claude Lab at 7pm.
 
 ## Three rules for the week
 1. **Sleep beats the plan.** If the hour would cut into sleep before a 12-hour shift, do the *minimum day* instead. Fatigue on site is a safety problem, not a willpower problem.
-2. **Minimum day still counts.** 1 round of the workout + the food tick + one prompt on your project. About 15 minutes. It keeps the habit alive.
+2. **Minimum day still counts.** 1 round of the workout + the food tick + the 15-minute version of Claude Lab. About 15 minutes. It keeps the habit alive.
 3. **Log it every night.** Fill in your row in `LOG.md`. Or just tell Claude "Day 3: did A, 5/6 food, built X" and it will log it for you.
 
 ---
@@ -58,26 +58,14 @@ Each day you **add** one rule. You keep all earlier rules. By Day 6 you're runni
 
 ---
 
-## Build — 35 minutes of Claude Code on your project
+## Build — now the 7pm Claude Lab session
 
-You learn Claude Code fastest by using it on something real. So every day's lesson is applied to **your Claude project**.
-
-**Before Day 1:** pick ONE project. Not two.
-
-| Day | Learn | Do on your project |
-|---|---|---|
-| 1 | **CLAUDE.md** — a file of standing instructions Claude reads at the start of every session. | Write one paragraph: what the project is, and what "done" looks like. Put it in the project's `CLAUDE.md` with your rules (style, no guessing, timezone). |
-| 2 | **Plan mode** — Claude plans first and changes nothing until you approve. | Ask Claude to plan the smallest useful next feature. Read the plan. Push back on at least one step. |
-| 3 | **Reviewing changes** — read what Claude changed before you keep it. | Build Day 2's feature. Read the diff (the list of changed lines). Ask: "What could break?" Commit it. |
-| 4 | **Scheduled tasks** — prompts that run on a timer. *Light day: 20 min.* | Tidy your list. You have 10 scheduled tasks; only 4 are on, and two are both called "Daily control systems test". Delete the dead ones, keep the ones you'd miss. |
-| 5 | **Skills** — saved instructions for a job you repeat. | Find one thing you keep asking Claude to do on this project. Turn it into a skill (ask Claude to use `skill-creator`). |
-| 6 | **Code review** — Claude checks a change for bugs. | Build one more small piece. Run `/code-review` on it. Fix what's real, ignore what isn't. |
-| 7 | **Retro** — look back before planning forward. | Write 3 lines in `LOG.md`: what shipped, what didn't, what's next. Write the backlog for your next swing. |
+The Build block is replaced by **Claude Lab** (`/claude-lab/PLAN.md`): 60 minutes at 7pm each night, one Claude capability per night. A reminder arrives in your Claude chat at 6:58pm.
 
 ---
 
 ## How you'll know it worked (Day 7)
 - **Move:** 7/7 days done (minimum days count). Test numbers up from Day 1.
 - **Eat:** food tick average of 80% or better across the week.
-- **Build:** at least two features shipped and committed on your project.
+- **Build:** all 7 Claude Lab nights logged in `/claude-lab/LOG.md`.
 - **The real test:** do you want to run it again next swing? If not, change the plan, don't drop it.

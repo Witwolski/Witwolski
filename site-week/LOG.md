@@ -1,7 +1,7 @@
 # Site Week Log
 
-Swing start date: _(fill in)_  
-Project for the Build block: _(fill in)_
+Swing: Mon 9 Nov to Mon 16 Nov 2026 (fly home Monday night)  
+Build block: Claude Lab (`/claude-lab/`)
 
 ## Fitness test
 
@@ -13,15 +13,15 @@ Project for the Build block: _(fill in)_
 
 ## Daily log
 
-| Day | Date | Move (session, done?) | Eat (kept/active) | Build (what you did) | Sleep (hrs) | Notes |
+| Day | Date | Move (session, done?) | Eat (kept/active) | Claude Lab night done? | Sleep (hrs) | Notes |
 |---|---|---|---|---|---|---|
-| 1 | | Test | /1 | | | |
-| 2 | | Circuit A ×3 | /2 | | | |
-| 3 | | Circuit B ×3 | /3 | | | |
-| 4 | | Easy walk | /4 | | | |
-| 5 | | Circuit A ×4 | /5 | | | |
-| 6 | | Circuit B ×4 | /6 | | | |
-| 7 | | Retest | /6 | | | |
+| 1 | Mon 9 Nov | Test | /1 | | | |
+| 2 | Tue 10 Nov | Circuit A ×3 | /2 | | | |
+| 3 | Wed 11 Nov | Circuit B ×3 | /3 | | | |
+| 4 | Thu 12 Nov | Easy walk | /4 | | | |
+| 5 | Fri 13 Nov | Circuit A ×4 | /5 | | | |
+| 6 | Sat 14 Nov | Circuit B ×4 | /6 | | | |
+| 7 | Sun 15 Nov | Retest | /6 | | | |
 
 ## Day 7 retro
 - **Shipped:**
