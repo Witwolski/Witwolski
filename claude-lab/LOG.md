@@ -4,9 +4,9 @@
 
 | Night | Date | Capability | What I made | Minutes | Useful? (1–5) | Use again? |
 |---|---|---|---|---|---|---|
-| 1 | Mon 9 Nov | Photos & screenshots | | | | |
-| 2 | Tue 10 Nov | A page that thinks | | | | |
-| 3 | Wed 11 Nov | Claude at work | | | | |
+| 1 | Mon 9 Nov | Photos & screenshots | Not done | 0 | | |
+| 2 | Tue 10 Nov | A page that thinks | Not done | 0 | | |
+| 3 | Wed 11 Nov | Claude at work | Not done | 0 | | |
 | 4 | Thu 12 Nov | Money dashboard | | | | |
 | 5 | Fri 13 Nov | Deep research | | | | |
 | 6 | Sat 14 Nov | Professional software build | | | | |

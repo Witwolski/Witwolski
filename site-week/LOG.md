@@ -15,9 +15,9 @@ Build block: Claude Lab (`/claude-lab/`)
 
 | Day | Date | Move (session, done?) | Eat (kept/active) | Claude Lab night done? | Sleep (hrs) | Notes |
 |---|---|---|---|---|---|---|
-| 1 | Mon 9 Nov | Test | /1 | | | |
-| 2 | Tue 10 Nov | Circuit A ×3 | /2 | | | |
-| 3 | Wed 11 Nov | Circuit B ×3 | /3 | | | |
+| 1 | Mon 9 Nov | Test — not done | /1 — off track | Not done | | Reported 11 Nov: nothing done this week, diet off the rails |
+| 2 | Tue 10 Nov | Circuit A ×3 — not done | /2 — off track | Not done | | Reported 11 Nov: nothing done this week, diet off the rails |
+| 3 | Wed 11 Nov | Circuit B ×3 — not done | /3 — off track | Not done | | Reported 11 Nov: nothing done this week, diet off the rails |
 | 4 | Thu 12 Nov | Easy walk | /4 | | | |
 | 5 | Fri 13 Nov | Circuit A ×4 | /5 | | | |
 | 6 | Sat 14 Nov | Circuit B ×4 | /6 | | | |
