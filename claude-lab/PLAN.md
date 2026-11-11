@@ -4,6 +4,13 @@
 **Where:** your phone, in the Claude app. Nothing here needs your home PC.
 **Length:** 60 minutes. Tonight is shorter (30 min) because you've just flown in.
 
+## RESET — this swing runs Night 4 and Night 5 only
+Mon–Wed didn't happen. For the rest of this swing, only the two nights with deadlines are on:
+- **Thu 12 Nov:** Night 4, money dashboard (payday).
+- **Fri 13 Nov:** Night 5, Japan research (book by 30 Nov).
+
+Nights 1, 2, 3, 6 and 7 move to the next swing. Each session is 30 minutes.
+
 ## Why this plan, and not "learn Claude"
 You already use more of Claude than most people do: scheduled tasks, your own skills (payday, spending log, mortgage review), a tracker page with a database, Gmail emails, and browser scraping for fares.
 

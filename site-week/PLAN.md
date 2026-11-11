@@ -1,5 +1,22 @@
 # Site Week Plan — Mon 9 to Sun 15 Nov 2026
 
+## RESET — Thu 12 to Sun 15 Nov (replaces everything below for this swing)
+
+Mon–Wed went off track: too much dinner and desserts. So the plan is now three small things.
+
+| | Do this |
+|---|---|
+| **Food rule 1** | **One plate, half of it veg or salad. No second trip.** |
+| **Food rule 2** | **Dessert is fruit or yoghurt.** One proper dessert on Saturday. |
+| **Move** | **Walk straight out of the mess after dinner, 10 minutes.** Leaving right away also skips the dessert counter. |
+| **Claude** | Thu: payday money dashboard. Fri: Japan itinerary. Sat and Sun: no Claude Lab. |
+
+Food tick each night is out of 2.
+
+The full plan below is for a later swing.
+
+---
+
 ## The idea in one line
 One hour a day, split into two blocks. Diet is not a block. It is a set of rules you follow at the mess.
 

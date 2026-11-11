@@ -9,8 +9,8 @@
 | 3 | Wed 11 Nov | Claude at work | Not done | 0 | | |
 | 4 | Thu 12 Nov | Money dashboard | | | | |
 | 5 | Fri 13 Nov | Deep research | | | | |
-| 6 | Sat 14 Nov | Professional software build | | | | |
-| 7 | Sun 15 Nov | Automations | | | | |
+| 6 | Sat 14 Nov | Professional software build | Moved to next swing | | | |
+| 7 | Sun 15 Nov | Automations | Moved to next swing | | | |
 
 ## Night 3 — where I'd trust Claude at work
 - **Saved me time on:**
