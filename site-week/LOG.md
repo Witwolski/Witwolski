@@ -19,7 +19,7 @@ _Reset from Thu 12 Nov: see the RESET section at the top of PLAN.md. Fitness tes
 |---|---|---|---|---|---|---|
 | 1 | Mon 9 Nov | Test — not done | /1 — off track | Not done | | Reported 11 Nov: nothing done this week, diet off the rails |
 | 2 | Tue 10 Nov | Circuit A ×3 — not done | /2 — off track | Not done | | Reported 11 Nov: nothing done this week, diet off the rails |
-| 3 | Wed 11 Nov | Circuit B ×3 — not done | /3 — off track | Not done | | Reported 11 Nov: nothing done this week, diet off the rails |
+| 3 | Wed 11 Nov | Circuit B ×3 — not done | /3 — off track | Not done | | Reported 11 Nov: nothing done this week, diet off the rails. Wed dinner: Pauls protein drink only, no meal |
 | 4 | Thu 12 Nov | 10 min walk after dinner | /2 | | | |
 | 5 | Fri 13 Nov | 10 min walk after dinner | /2 | | | |
 | 6 | Sat 14 Nov | 10 min walk after dinner | /2 | | | |
