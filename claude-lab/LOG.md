@@ -7,7 +7,7 @@
 | 1 | Mon 9 Nov | Photos & screenshots | Not done | 0 | | |
 | 2 | Tue 10 Nov | A page that thinks | Not done | 0 | | |
 | 3 | Wed 11 Nov | Claude at work | Not done | 0 | | |
-| 4 | Thu 12 Nov | Money dashboard | | | | |
+| 4 | Thu 12 Nov | Money dashboard | Payday Dashboard (https://claude.ai/artifact/9ujyLwQGkZKxM9Qn2ft4Pn): fortnight spending vs budget, month by category, gambling cash result, payoff path | | | |
 | 5 | Fri 13 Nov | Deep research | | | | |
 | 6 | Sat 14 Nov | Professional software build | Moved to next swing | | | |
 | 7 | Sun 15 Nov | Automations | Moved to next swing | | | |
